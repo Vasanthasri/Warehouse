@@ -1,0 +1,42 @@
+.scan-page {
+    text-align: center;
+    background-image: url('../assets/W_Scan.jpg');
+    
+    /* Update with your image path */
+    background-size: cover;
+    background-position: center;
+    color: white; /* Change text color if needed for contrast */
+    min-height: 100vh;
+    padding: 20px;
+    margin: 0; /* Remove default margin */
+    box-sizing: border-box; /* Ensure padding is included in the height */
+}
+
+.scan-page h2 {
+    font-size: 2.5rem;
+    color: white; /* Text color for visibility on background */
+    font-weight: bold; /* Bold text */
+    margin: 20px 0; /* Adjusted margin */
+}
+
+.scan-page p {
+    font-size: 1.2rem;
+    color: white; /* Text color for visibility on background */
+    margin-bottom: 30px; /* Space below the paragraph */
+}
+
+.scan-page button {
+    padding: 15px 25px;
+    font-size: 1.2rem;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #ff5722; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.scan-page button:hover {
+    background-color: #e64a19; /* Darker shade on hover */
+}

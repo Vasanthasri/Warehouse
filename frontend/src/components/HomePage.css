@@ -1,0 +1,48 @@
+/* components/HomePage.css */
+.home-page {
+    display: flex; /* Use Flexbox */
+    flex-direction: column; /* Arrange children in a column */
+    align-items: center; /* Center children horizontally */
+    justify-content: center; /* Center children vertically */
+    text-align: center; /* Center text */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-image: url('../assets/W_Home.jpg'); /* Ensure this path is correct */
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* White text for contrast on dark backgrounds */
+    min-height: 100vh; /* Ensure it takes up at least the full viewport height */
+    overflow: hidden; /* Hide overflow if necessary */
+}
+
+.home-page h2 {
+    font-size: 3rem; /* Larger font size for better visibility */
+    color: #fff; /* White text */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.home-page p {
+    font-size: 1.5rem; /* Slightly larger font size */
+    color: #f0f0f0; /* Light gray text for contrast */
+    margin-bottom: 30px; /* Space below the paragraph */
+}
+
+.home-page .button-container {
+    display: flex; /* Use Flexbox to arrange buttons */
+    gap: 20px; /* Space between buttons */
+}
+
+.home-page button {
+    padding: 15px 25px; /* Larger padding for a more prominent button */
+    font-size: 1.2rem; /* Larger font size */
+    cursor: pointer;
+    background-color: #ff5722; /* Colorful background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.home-page button:hover {
+    background-color: #e64a19; /* Darker shade on hover */
+}
